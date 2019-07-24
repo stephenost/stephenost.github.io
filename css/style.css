@@ -884,7 +884,7 @@ header {
     .article .blog-img:hover .overlay {
       opacity: 1; }
     .article .blog-img:hover .link {
-/*      opacity: 1;*/
+/*      opacity: 1d;*/
       bottom: 50px; }
     .article .blog-img:hover img {
       -webkit-transform: scale(1.1);
