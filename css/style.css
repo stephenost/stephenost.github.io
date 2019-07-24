@@ -884,7 +884,7 @@ header {
     .article .blog-img:hover .overlay {
       opacity: 1; }
     .article .blog-img:hover .link {
-/*      opacity: 1d;*/
+      opacity: 1;
       bottom: 50px; }
     .article .blog-img:hover img {
       -webkit-transform: scale(1.1);
@@ -917,8 +917,10 @@ header {
       .article .desc h2 a {
         text-decoration: none;
         color: #000; }
+/*
   .article:hover .meta {
     background: #fff; }
+*/
 
 #colorlib-testimony .owl-theme .owl-dots .owl-dot.active span,
 #colorlib-testimony .owl-theme .owl-dots .owl-dot:hover span {
