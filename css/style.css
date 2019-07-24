@@ -917,10 +917,6 @@ header {
       .article .desc h2 a {
         text-decoration: none;
         color: #000; }
-/*
-  .article:hover .meta {
-    background: #fff; }
-*/
 
 #colorlib-testimony .owl-theme .owl-dots .owl-dot.active span,
 #colorlib-testimony .owl-theme .owl-dots .owl-dot:hover span {
