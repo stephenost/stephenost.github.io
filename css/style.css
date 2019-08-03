@@ -44,6 +44,10 @@ a {
   a:focus, a:active {
     outline: none; }
 
+.blue {
+    color: #25C9D0;
+}
+
 p, span {
   margin-bottom: 1.5em;
   font-weight: 400;
