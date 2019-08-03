@@ -33,6 +33,14 @@ body {
     height: 100%;
     overflow-y: hidden; }
 
+.img-responsive {
+    display: block;
+    max-width: 80%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 a {
   color: #25C9D0;
   -webkit-transition: 0.5s;
