@@ -68,6 +68,7 @@ a {
     color: #FFA500;
 }
 
+/*
 .brown {
     color: #AB5C2A;
 }
@@ -75,6 +76,7 @@ a {
 .brown:hover {
     color: #AB5C2A;
 }
+*/
 
 .education-img {
     height: 200px;
@@ -974,6 +976,10 @@ header {
         text-decoration: none;
         color: #000; }
 
+.education-title {
+    font-size: 24px !important;
+}
+
 #colorlib-testimony .owl-theme .owl-dots .owl-dot.active span,
 #colorlib-testimony .owl-theme .owl-dots .owl-dot:hover span {
   height: 3px;
@@ -1314,8 +1320,9 @@ input[type="text"] {
   text-decoration: none !important; }
 
 .colorlib-social-icons i {
-  font-size: 24px;
-  color: #25C9D0; }
+  font-size: 28px;
+  color: #25C9D0;
+  padding-right: 8px; }
 
 #footer {
   padding: 8em 0;
@@ -1331,7 +1338,7 @@ input[type="text"] {
   #footer p.colorlib-social-icons a:hover, #footer p.colorlib-social-icons a:focus {
     text-decoration: none !important; }
   #footer p.colorlib-social-icons i {
-    font-size: 24px;
+    font-size: 28px;
     color: #25C9D0; }
   #footer p .block {
     color: #1a1a1a;
