@@ -76,6 +76,10 @@ a {
     color: #AB5C2A;
 }
 
+.education-img {
+    height: 200px;
+}
+
 p, span {
   margin-bottom: 1.5em;
   font-weight: 400;
@@ -874,7 +878,8 @@ header {
     position: relative;
     overflow: hidden;
     width: 100%; 
-    border: solid 1px #e4e4e4; }
+    border: solid 1px #e4e4e4;
+    background-color: white; }
     .article .patent-img img {
       position: relative;
       max-width: 100%;
