@@ -68,6 +68,14 @@ a {
     color: #FFA500;
 }
 
+.brown {
+    color: #AB5C2A;
+}
+
+.brown:hover {
+    color: #AB5C2A;
+}
+
 p, span {
   margin-bottom: 1.5em;
   font-weight: 400;
@@ -135,6 +143,10 @@ h1, h2, h3, h4, h5, h6 {
         .about-desc .desc {
             padding-left: 4em !important;
         }
+        .trae-insta, .services-img {
+            visibility: hidden;
+        }
+        
     }
 
 #colorlib-main-nav {
@@ -488,6 +500,11 @@ header {
   background-position: center center;
   background-repeat: no-repeat;
   position: relative; }
+
+.trae-insta {
+    margin-left: 72%;
+    margin-top: 8px;
+}
 
 .progress-head {
   font-size: 22px; }
