@@ -152,6 +152,12 @@ h1, h2, h3, h4, h5, h6 {
         .trae-insta, .services-img {
             visibility: hidden;
         }
+        .margin-b {
+            margin-bottom: 20px;
+        }
+        .inc {
+            height: 27px !important;
+        }
         
     }
 
@@ -978,6 +984,10 @@ header {
 
 .education-title {
     font-size: 24px !important;
+}
+
+.press-img {
+    border: 0 !important;
 }
 
 #colorlib-testimony .owl-theme .owl-dots .owl-dot.active span,
