@@ -158,7 +158,9 @@ h1, h2, h3, h4, h5, h6 {
         .inc {
             height: 27px !important;
         }
-        
+        .stephenost-img {
+	       content:url("../images/stephenost-m.jpg");
+        }
     }
 
 #colorlib-main-nav {
