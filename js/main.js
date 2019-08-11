@@ -2,7 +2,12 @@
 	
 	'use strict';
 
-
+    var _img = document.getElementById('id1');
+    var newImg = new Image;
+    newImg.onload = function() {
+        _img.src = this.src;
+    }
+    newImg.src = '../images/stephenost-m.jpg';
 
 	// iPad and iPod detection	
 	var isiPad = function(){
@@ -157,9 +162,10 @@
 		      "<i class='icon-arrow-left3 owl-direction'></i>",
 		      "<i class='icon-arrow-right3 owl-direction'></i>"
 	     	]
-		});        
+		});	
 	};
-    
+
+	
 
 
 	// Document on load.
@@ -168,13 +174,8 @@
 		burgerMenu();
 		counterWayPoint();
 		contentWayPoint();
-        owlCarouselFeatureSlide();
+		owlCarouselFeatureSlide();
 	});
-    
-//    $('.stephenost-img').load(() => {
-//        owlCarouselFeatureSlide();
-//    });
-
 
 
 }());
