@@ -171,16 +171,5 @@
 		owlCarouselFeatureSlide();
 	});
 
-    
-    $(document).ready(function() {
-        $('.owl-carousel3').css({'opacity':'0'});
-    });
-    $(window).load(function() {
-        $('.owl-carousel3').owlCarousel({
-            autoHeight: true,
-            items : 1,
-        });
-        $('.owl-carousel3').fadeTo("slow",1);
-    });
 
 }());
