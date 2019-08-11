@@ -157,13 +157,7 @@
 		      "<i class='icon-arrow-left3 owl-direction'></i>",
 		      "<i class='icon-arrow-right3 owl-direction'></i>"
 	     	]
-		});
-        
-        var owlTimer = setInterval(function() {
-            if(owl3.height() > 1) clearInterval(owlTimer);
-            owl3.trigger('refresh.owl.carousel', [100]);
-        }, 300);
-        
+		});        
 	};
     
 
@@ -177,5 +171,16 @@
 		owlCarouselFeatureSlide();
 	});
 
+    
+    $(document).ready(function() {
+        $('.owl-carousel3').css({'opacity':'0'});
+    });
+    $(window).load(function() {
+        $('.owl-carousel3').owlCarousel({
+            autoHeight: true,
+            items : 1,
+        });
+        $('.owl-carousel3').css({'opacity':'1'});
+    });
 
 }());
