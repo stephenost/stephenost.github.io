@@ -175,7 +175,6 @@
 		counterWayPoint();
 		contentWayPoint();
 		owlCarouselFeatureSlide();
-        owlTimer();
 	});
 
 
