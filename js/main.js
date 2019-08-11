@@ -157,15 +157,14 @@
 		      "<i class='icon-arrow-left3 owl-direction'></i>",
 		      "<i class='icon-arrow-right3 owl-direction'></i>"
 	     	]
-		});	
+		});
+        
+        var owlTimer = setInterval(function() {
+            if(owl3.height() > 1) clearInterval(owlTimer);
+            owl3.trigger('refresh.owl.carousel', [100]);
+        }, 300);
+        
 	};
-
-	
-    
-    var owlTimer = setInterval(function() {
-        if(owl3.height() > 1) clearInterval(owlTimer);
-        owl3.trigger('refresh.owl.carousel', [100]);
-    }, 300);
     
 
 
@@ -176,6 +175,7 @@
 		counterWayPoint();
 		contentWayPoint();
 		owlCarouselFeatureSlide();
+        owlTimer();
 	});
 
 
