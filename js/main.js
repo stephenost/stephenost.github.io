@@ -180,7 +180,7 @@
             autoHeight: true,
             items : 1,
         });
-        $('.owl-carousel3').css({'opacity':'1'});
+        $('.owl-carousel3').fadeTo("slow",1);
     });
 
 }());
