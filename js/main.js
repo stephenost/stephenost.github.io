@@ -168,7 +168,9 @@
 		burgerMenu();
 		counterWayPoint();
 		contentWayPoint();
-		owlCarouselFeatureSlide();
+		$('.stephenost-img').load(() => {
+            owlCarouselFeatureSlide();
+        });
 	});
 
 
