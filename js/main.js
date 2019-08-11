@@ -174,10 +174,6 @@
 //    $('.stephenost-img').load(() => {
 //        owlCarouselFeatureSlide();
 //    });
-    
-    $(window).on('load', function() {
-        $(window).trigger('resize');
-    });
 
 
 
