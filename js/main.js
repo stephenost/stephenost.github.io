@@ -164,7 +164,7 @@
 
 
 	// Document on load.
-	$(function(){
+	$(window).load(function(){
 		fullHeight();
 		burgerMenu();
 		counterWayPoint();
