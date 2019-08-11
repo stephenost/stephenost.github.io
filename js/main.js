@@ -97,7 +97,7 @@
 	};
 
 	// Owl Carousel
-	var owlCarouselFeatureSlide = function() {
+	var owlCarouselFeatureSlide = $(window).load(function() {
 		var owl = $('.owl-carousel1');
 		owl.owlCarousel({
 			animateOut: 'fadeOut',
@@ -155,8 +155,9 @@
 		      "<i class='icon-arrow-left3 owl-direction'></i>",
 		      "<i class='icon-arrow-right3 owl-direction'></i>"
 	     	]
-		});	
-	};
+		});
+        $('.owl-carousel3').css("opacity","1");
+	});
 
 	
 
@@ -167,8 +168,12 @@
 		burgerMenu();
 		counterWayPoint();
 		contentWayPoint();
-		owlCarouselFeatureSlide();
-	});
+
+    });
+    
+//    $(window).load(function() {
+//        owlCarouselFeatureSlide();
+//    });
 
 
 }());
