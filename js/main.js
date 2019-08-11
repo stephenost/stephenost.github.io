@@ -164,13 +164,15 @@
 
 
 	// Document on load.
-	$(window).load(function(){
+	$(function(){
 		fullHeight();
 		burgerMenu();
 		counterWayPoint();
 		contentWayPoint();
-		owlCarouselFeatureSlide();
 	});
 
+    $(window).load(function(){
+		owlCarouselFeatureSlide();
+	});
 
 }());
