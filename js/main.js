@@ -169,10 +169,8 @@
 		burgerMenu();
 		counterWayPoint();
 		contentWayPoint();
-	});
-
-    $(window).load(function(){
 		owlCarouselFeatureSlide();
 	});
+
 
 }());
