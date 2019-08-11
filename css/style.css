@@ -160,6 +160,7 @@ h1, h2, h3, h4, h5, h6 {
         }
         .stephenost-img {
 	       content:url("../images/stephenost-m.jpg");
+           height: auto !important;
         }
     }
 
