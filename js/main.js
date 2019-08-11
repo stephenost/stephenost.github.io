@@ -2,13 +2,6 @@
 	
 	'use strict';
 
-    var _img = document.getElementById('id1');
-    var newImg = new Image;
-    newImg.onload = function() {
-        _img.src = this.src;
-    }
-    newImg.src = '../images/stephenost-m.jpg';
-
 	// iPad and iPod detection	
 	var isiPad = function(){
 		return (navigator.platform.indexOf("iPad") != -1);
