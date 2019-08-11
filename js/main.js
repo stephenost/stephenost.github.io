@@ -161,6 +161,12 @@
 	};
 
 	
+    
+    var owlTimer = setInterval(function() {
+        if(owl3.height() > 1) clearInterval(owlTimer);
+        owl3.trigger('refresh.owl.carousel', [100]);
+    }, 300);
+    
 
 
 	// Document on load.
