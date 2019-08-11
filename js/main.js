@@ -156,6 +156,24 @@
 		      "<i class='icon-arrow-right3 owl-direction'></i>"
 	     	]
 		});	
+        
+        var length = $(".owl-stage-outer").length;
+
+        var carTimer = setInterval(function(){
+            var gotheight = true;
+            for(var i=0; i<length; i++){
+                if($(".owl-stage-outer").eq(i).height() < 2){
+                    gotheight = false;
+                    break;
+                }
+            }
+
+            if(gotheight)
+                clearInterval(carTimer);
+            else
+                owl3.trigger('refresh.owl.carousel', [100]);         
+        }, 300);
+
 	};
 
 	
